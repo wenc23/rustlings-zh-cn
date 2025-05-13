@@ -8,7 +8,13 @@
 // - 如果购买的苹果数量超过40个，那么每个苹果的价格变为1r!
 
 // TODO: 编写一个函数，根据购买的苹果数量来计算总价。
-// fn calculate_price_of_apples(???) -> ??? { ??? }
+fn calculate_price_of_apples(n:i64) -> i64 { 
+    if n > 40{
+    n
+    }else{
+    n * 2
+    }
+}
 fn main() {
     // (可选)你可以选择性地在此处进行试验。
 }
